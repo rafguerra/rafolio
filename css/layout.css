@@ -108,16 +108,15 @@ header .social li a:hover {
 /* scrolldown link */
 header .scrolldown a {
   position: absolute;
-  bottom: 30px;
+  bottom: 10%;
   left: 50%;
   margin-left: -29px;
-  color: #fff;
+  color: #000;
   display: block;
   height: 42px;
   width: 42px;
   font-size: 42px;
   line-height: 42px;
-  color: #fff;
   border-radius: 100%;
 
   -webkit-transition: all 0.3s ease-in-out;
@@ -153,7 +152,7 @@ header .scrolldown a:hover {
   top: 0;
 }
 .opaque {
-  background-color: #333;
+  background-color: #fff;
 }
 
 /* hide toggle button */
@@ -171,7 +170,7 @@ ul#nav {
 ul#nav li {
   position: relative;
   list-style: none;
-  height: 48px;
+  height: 60px;
   display: inline-block;
 }
 
@@ -179,6 +178,7 @@ ul#nav li {
 ul#nav li a {
   /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
   display: inline-block;
+  font-size: small;
   padding: 8px 13px;
   line-height: 32px;
   text-decoration: none;
@@ -196,7 +196,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #34495e;
+  color: #0762f9;
 }
 
 /* ------------------------------------------------------------------ */
@@ -204,7 +204,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #000524;
+  background: #0c0341;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
@@ -1043,7 +1043,7 @@ footer a:visited {
 }
 footer a:hover,
 footer a:focus {
-  color: #fff;
+  color: #0762f9;
 }
 
 /* copyright */
@@ -1115,7 +1115,7 @@ footer .social-links li:first-child {
   border-radius: 100%;
 }
 #go-top a:hover {
-  background-color: #0f9095;
+  background-color: #0762f9;
 }
 
 .social .btn:first-child {
